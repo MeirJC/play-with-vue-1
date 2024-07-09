@@ -29,11 +29,11 @@ const addTask = () => {
         class="flex items-center justify-center w-full max-w-3xl gap-4 p-2 border rounded-md md:gap-6 border-amber-300/20">
         <button
           class="w-full py-2 text-2xl font-bold transition-colors duration-300 border rounded-md min-w-24 border-amber-300 hover:bg-neutral-500/40"
-          @click="increment">+</button>
+          @click="decrement">−</button>
         <p class="text-2xl whitespace-nowrap">Count is {{ count }}</p>
         <button
           class="w-full py-2 text-2xl font-bold transition-colors duration-300 border rounded-md min-w-24 border-amber-300 hover:bg-neutral-500/40"
-          @click="decrement">−</button>
+          @click="increment">+</button>
       </div>
       <!--  -->
       <h2 class="pt-4 font-mono text-3xl font-light tracking-wider">Task List</h2>
